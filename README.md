@@ -3,20 +3,20 @@
 <p align="left">
   <img alt="status" src="https://img.shields.io/badge/status-active-2ea44f">
   <img alt="updated" src="https://img.shields.io/badge/updated-daily-0969da">
-  <img alt="public extract" src="https://img.shields.io/badge/public%20extract-7%2C892%20rows-8250df">
+  <img alt="public extract" src="https://img.shields.io/badge/public%20extract-7%2C893%20rows-8250df">
   <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-7%2C893%20domains-6f42c1">
   <img alt="formats" src="https://img.shields.io/badge/formats-CSV%20%7C%20JSON-f59e0b">
   <img alt="license" src="https://img.shields.io/badge/license-see%20LICENSE-6b7280">
 </p>
 
-Daily-updated public extract of available and resale .fyi one-word domains from Unique Domains.
+Daily-updated dataset of available and resale .fyi one-word domains from Unique Domains.
 
-> **Important:** this repository is a **public 7,892-row extract**, not the full live catalog.
-> The full live catalog for this exact search currently contains **7,893 domains** on the canonical page below.
+> **Note:** this repository currently mirrors the full live catalog for this exact search.
+> Unique Domains counts can still change as the search refreshes.
 
-**Public extract:** 7,892 rows · **Live catalog:** 7,893 domains
+**Public extract:** 7,893 rows · **Live catalog:** 7,893 domains
 
-**Last updated:** 2026-04-11  
+**Last updated:** 2026-04-12  
 **Canonical page:** `https://unique.domains/domains/tld/fyi`  
 **Best for:** founders, investors, studios
 
@@ -43,8 +43,8 @@ This repository is the public extract for Unique Domains' .FYI one-word domain c
 
 ### Files
 
-- `fyi.csv` — public CSV extract (7,892 rows)
-- `fyi.json` — public JSON extract (7,892 rows)
+- `fyi.csv` — public CSV extract (7,893 rows)
+- `fyi.json` — public JSON extract (7,893 rows)
 - `DATA_DICTIONARY.md` — field definitions for the exported files
 - `METHODOLOGY.md` — scope, refresh policy, and caveats
 - `CHANGELOG.md` — latest snapshot metadata
@@ -73,13 +73,13 @@ print(df.head())
 | bore.fyi       | available | $9.68     | —             | 82             | 12     | 4      | namecheap        |
 | boss.fyi       | resell    | —         | —             | 76             | 73     | 4      | Dynadot Inc      |
 | evolve.fyi     | premium   | $18.75    | —             | 84             | 40     | 6      | name.com         |
-| alkaline.fyi   | available | $9.68     | —             | 88             | 11     | 8      | namecheap        |
-| habitat.fyi    | resell    | —         | —             | 74             | 67     | 7      | Dynadot Inc      |
+| nervous.fyi    | available | $9.68     | —             | 64             | 12     | 7      | namecheap        |
+| habitat.fyi    | resell    | —         | —             | 74             | 66     | 7      | Dynadot Inc      |
 | dark.fyi       | premium   | $18.75    | $18.75        | 52             | 40     | 4      | name.com         |
-| desired.fyi    | available | $9.68     | —             | 78             | 11     | 7      | namecheap        |
+| alkaline.fyi   | available | $9.68     | —             | 88             | 11     | 8      | namecheap        |
 | fun.fyi        | resell    | —         | —             | 122            | 62     | 3      | NameSilo, LLC    |
 | direct.fyi     | premium   | $82.50    | $82.50        | 104            | 38     | 6      | name.com         |
-| nervous.fyi    | available | $9.68     | —             | 64             | 11     | 7      | namecheap        |
+| desired.fyi    | available | $9.68     | —             | 78             | 11     | 7      | namecheap        |
 | power.fyi      | resell    | —         | —             | 98             | 62     | 5      | Porkbun LLC      |
 | awake.fyi      | premium   | $18.75    | —             | 86             | 38     | 5      | name.com         |
 | masterful.fyi  | available | $9.68     | —             | 74             | 10     | 9      | namecheap        |
@@ -93,7 +93,7 @@ You are seeing the public sample. Unique Domains keeps the exact search context 
 
 | GitHub extract          | Unique Domains                                   |
 | ----------------------- | ------------------------------------------------ |
-| 7,892-row public sample | 7,893 live domains                               |
+| 7,893-row public sample | 7,893 live domains                               |
 | Static CSV / JSON       | live search and daily refresh                    |
 | Basic exported fields   | deeper price, demand, risk, and workflow context |
 | No persistence          | Radar, saved search, and alerts                  |
@@ -143,7 +143,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .FYI One-Word Domains*. Version 2026-04-11. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .FYI One-Word Domains*. Version 2026-04-12. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
