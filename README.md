@@ -72,17 +72,17 @@ print(df.head())
 | based.fyi      | premium   | $18.75    | —             | 82             | 45     | 5      | name.com         |
 | bore.fyi       | available | $9.68     | —             | 82             | 12     | 4      | namecheap        |
 | boss.fyi       | resell    | —         | —             | 76             | 73     | 4      | Dynadot Inc      |
-| evolve.fyi     | premium   | $18.75    | —             | 84             | 40     | 6      | name.com         |
+| direct.fyi     | premium   | $82.50    | $82.50        | 104            | 40     | 6      | name.com         |
 | nervous.fyi    | available | $9.68     | —             | 64             | 12     | 7      | namecheap        |
 | habitat.fyi    | resell    | —         | —             | 74             | 66     | 7      | Dynadot Inc      |
-| dark.fyi       | premium   | $18.75    | $18.75        | 52             | 40     | 4      | name.com         |
+| evolve.fyi     | premium   | $18.75    | —             | 84             | 40     | 6      | name.com         |
 | alkaline.fyi   | available | $9.68     | —             | 88             | 11     | 8      | namecheap        |
 | fun.fyi        | resell    | —         | —             | 122            | 62     | 3      | NameSilo, LLC    |
-| direct.fyi     | premium   | $82.50    | $82.50        | 104            | 38     | 6      | name.com         |
+| dark.fyi       | premium   | $18.75    | $18.75        | 52             | 40     | 4      | name.com         |
 | desired.fyi    | available | $9.68     | —             | 78             | 11     | 7      | namecheap        |
 | power.fyi      | resell    | —         | —             | 98             | 62     | 5      | Porkbun LLC      |
 | awake.fyi      | premium   | $18.75    | —             | 86             | 38     | 5      | name.com         |
-| masterful.fyi  | available | $9.68     | —             | 74             | 10     | 9      | namecheap        |
+| crying.fyi     | available | $9.68     | —             | 82             | 10     | 6      | namecheap        |
 | space.fyi      | resell    | —         | —             | 80             | 61     | 5      | GoDaddy.com, LLC |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
