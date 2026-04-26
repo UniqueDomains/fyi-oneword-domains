@@ -1,22 +1,22 @@
-# Available .FYI One-Word Domains (7,893)
+# Available .FYI One-Word Domains (10,037)
 
 <p align="left">
   <img alt="status" src="https://img.shields.io/badge/status-active-2ea44f">
   <img alt="updated" src="https://img.shields.io/badge/updated-daily-0969da">
-  <img alt="public extract" src="https://img.shields.io/badge/public%20extract-7%2C893%20rows-8250df">
-  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-7%2C893%20domains-6f42c1">
+  <img alt="public extract" src="https://img.shields.io/badge/public%20extract-1%2C000%20rows-8250df">
+  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-10%2C037%20domains-6f42c1">
   <img alt="formats" src="https://img.shields.io/badge/formats-CSV%20%7C%20JSON-f59e0b">
   <img alt="license" src="https://img.shields.io/badge/license-see%20LICENSE-6b7280">
 </p>
 
-Daily-updated dataset of available and resale .fyi one-word domains from Unique Domains.
+Daily-updated public extract of available and resale .fyi one-word domains from Unique Domains.
 
-> **Note:** this repository currently mirrors the full live catalog for this exact search.
-> Unique Domains counts can still change as the search refreshes.
+> **Important:** this repository is a **public 1,000-row extract**, not the full live catalog.
+> The full live catalog for this exact search currently contains **10,037 domains** on the canonical page below.
 
-**Public extract:** 7,893 rows · **Live catalog:** 7,893 domains
+**Public extract:** 1,000 rows · **Live catalog:** 10,037 domains
 
-**Last updated:** 2026-04-13  
+**Last updated:** 2026-04-26  
 **Canonical page:** `https://unique.domains/domains/tld/fyi`  
 **Best for:** founders, investors, studios
 
@@ -43,8 +43,8 @@ This repository is the public extract for Unique Domains' .FYI one-word domain c
 
 ### Files
 
-- `fyi.csv` — public CSV extract (7,893 rows)
-- `fyi.json` — public JSON extract (7,893 rows)
+- `fyi.csv` — public CSV extract (1,000 rows)
+- `fyi.json` — public JSON extract (1,000 rows)
 - `DATA_DICTIONARY.md` — field definitions for the exported files
 - `METHODOLOGY.md` — scope, refresh policy, and caveats
 - `CHANGELOG.md` — latest snapshot metadata
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain         | status    | ask_price | renewal_price | attractiveness | demand | length | registrar        |
-| -------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ---------------- |
-| remedial.fyi   | available | $9.68     | —             | 86             | 24     | 8      | namecheap        |
-| industrial.fyi | resell    | $19.50    | $19.50        | 62             | 25     | 10     | GoDaddy.com, LLC |
-| trade.fyi      | premium   | $82.50    | —             | 82             | 46     | 5      | name.com         |
-| masterly.fyi   | available | $9.68     | —             | 79             | 18     | 8      | namecheap        |
-| discover.fyi   | resell    | —         | —             | 66             | 75     | 8      | Porkbun LLC      |
-| based.fyi      | premium   | $18.75    | —             | 82             | 45     | 5      | name.com         |
-| bore.fyi       | available | $9.68     | —             | 82             | 12     | 4      | namecheap        |
-| boss.fyi       | resell    | —         | —             | 76             | 73     | 4      | Dynadot Inc      |
-| direct.fyi     | premium   | $82.50    | $82.50        | 104            | 40     | 6      | name.com         |
-| nervous.fyi    | available | $9.68     | —             | 64             | 12     | 7      | namecheap        |
-| habitat.fyi    | resell    | —         | —             | 74             | 66     | 7      | Dynadot Inc      |
-| evolve.fyi     | premium   | $18.75    | —             | 84             | 40     | 6      | name.com         |
-| alkaline.fyi   | available | $9.68     | —             | 88             | 11     | 8      | namecheap        |
-| fun.fyi        | resell    | —         | —             | 122            | 62     | 3      | NameSilo, LLC    |
-| dark.fyi       | premium   | $18.75    | $18.75        | 52             | 40     | 4      | name.com         |
-| desired.fyi    | available | $9.68     | —             | 78             | 11     | 7      | namecheap        |
-| power.fyi      | resell    | —         | —             | 98             | 62     | 5      | Porkbun LLC      |
-| awake.fyi      | premium   | $18.75    | —             | 86             | 38     | 5      | name.com         |
-| crying.fyi     | available | $9.68     | —             | 82             | 10     | 6      | namecheap        |
-| space.fyi      | resell    | —         | —             | 80             | 61     | 5      | GoDaddy.com, LLC |
+| domain          | status    | ask_price | renewal_price | attractiveness | demand | length | registrar        |
+| --------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ---------------- |
+| gohome.fyi      | available | $9.68     | —             | 76             | 14     | 7      | namecheap        |
+| dogs.fyi        | resell    | —         | —             | 76             | 28     | 4      | NameCheap, Inc.  |
+| backyard.fyi    | premium   | $18.75    | —             | 80             | 27     | 9      | name.com         |
+| berries.fyi     | available | $9.68     | —             | 60             | 13     | 7      | namecheap        |
+| dentist.fyi     | resell    | —         | —             | 74             | 25     | 7      | GoDaddy.com, LLC |
+| Trex.fyi        | premium   | $21       | $21           | 80             | 24     | 5      | namecheap        |
+| niggers.fyi     | available | $9.68     | —             | 37             | 13     | 7      | namecheap        |
+| ratings.fyi     | resell    | —         | —             | 53             | 19     | 7      | Spaceship, Inc.  |
+| chem.fyi        | premium   | $18.75    | —             | 74             | 24     | 4      | name.com         |
+| bottles.fyi     | available | $9.68     | —             | 62             | 12     | 7      | namecheap        |
+| advisors.fyi    | resell    | —         | —             | 52             | 16     | 8      | GoDaddy.com, LLC |
+| whats.fyi       | premium   | $17.70    | $17.70        | 58             | 24     | 5      | namesilo         |
+| MickeyMouse.fyi | available | $9.68     | —             | 86             | 11     | 12     | namecheap        |
+| pearls.fyi      | resell    | —         | —             | 64             | 12     | 6      | GoDaddy.com, LLC |
+| makeit.fyi      | premium   | $18.75    | —             | 82             | 22     | 7      | name.com         |
+| plated.fyi      | available | $9.68     | —             | 66             | 11     | 6      | namecheap        |
+| brothers.fyi    | premium   | $18.75    | —             | 60             | 22     | 8      | name.com         |
+| crowns.fyi      | available | $9.68     | —             | 62             | 11     | 6      | namecheap        |
+| results.fyi     | premium   | $82.50    | —             | 59             | 22     | 7      | name.com         |
+| Curves.fyi      | available | $9.68     | —             | 51             | 11     | 6      | namecheap        |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -93,7 +93,7 @@ You are seeing the public sample. Unique Domains keeps the exact search context 
 
 | GitHub extract          | Unique Domains                                   |
 | ----------------------- | ------------------------------------------------ |
-| 7,893-row public sample | 7,893 live domains                               |
+| 1,000-row public sample | 10,037 live domains                              |
 | Static CSV / JSON       | live search and daily refresh                    |
 | Basic exported fields   | deeper price, demand, risk, and workflow context |
 | No persistence          | Radar, saved search, and alerts                  |
@@ -143,7 +143,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .FYI One-Word Domains*. Version 2026-04-13. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .FYI One-Word Domains*. Version 2026-04-26. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
