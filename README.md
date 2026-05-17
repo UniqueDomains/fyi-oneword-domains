@@ -16,7 +16,7 @@ Daily-updated public extract of available and resale .fyi one-word domains from 
 
 **Public extract:** 1,000 rows · **Live catalog:** 10,569 domains · **Median ask:** $12.14 · **High-demand under $2,500:** 0
 
-**Last updated:** 2026-05-15  
+**Last updated:** 2026-05-17  
 **Canonical page:** `https://unique.domains/domains/tld/fyi`  
 **Best for:** founders, investors, studios
 
@@ -78,10 +78,10 @@ print(df.head())
 | whats.fyi       | premium   | $17.70    | $17.70        | 58             | 24     | 5      | namesilo         |
 | MickeyMouse.fyi | available | $9.68     | —             | 86             | 11     | 12     | namecheap        |
 | advisors.fyi    | resell    | —         | —             | 52             | 16     | 8      | GoDaddy.com, LLC |
-| makeit.fyi      | premium   | $18.75    | —             | 82             | 22     | 7      | name.com         |
+| brothers.fyi    | premium   | $18.75    | —             | 60             | 22     | 8      | name.com         |
 | plated.fyi      | available | $9.68     | —             | 66             | 11     | 6      | namecheap        |
 | democrat.fyi    | resell    | —         | —             | 80             | 14     | 8      | GoDaddy.com, LLC |
-| brothers.fyi    | premium   | $18.75    | —             | 60             | 22     | 8      | name.com         |
+| results.fyi     | premium   | $82.50    | —             | 59             | 22     | 7      | name.com         |
 | crowns.fyi      | available | $9.68     | —             | 62             | 11     | 6      | namecheap        |
 | pearls.fyi      | resell    | —         | —             | 64             | 12     | 6      | GoDaddy.com, LLC |
 
@@ -142,7 +142,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .FYI One-Word Domains*. Version 2026-05-15. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .FYI One-Word Domains*. Version 2026-05-17. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
