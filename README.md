@@ -14,10 +14,10 @@ Daily-updated public extract of available and resale .fyi one-word domains from 
 > **Important:** this repository is a **public 1,000-row extract**, not the full live catalog.
 > The full live catalog for this exact search currently contains **10,570 domains** on the canonical page below.
 
-**Public extract:** 1,000 rows · **Live catalog:** 10,570 domains · **Median ask:** $12.14 · **High-demand under $2,500:** 0
+**Public extract:** 1,000 rows · **Live catalog:** 10,570 domains · **Median ask:** $12.99 · **High-demand under $2,500:** 0
 
-**Last updated:** 2026-05-27  
-**Canonical page:** `https://unique.domains/domains/tld/fyi`  
+**Last updated:** 2026-07-07
+**Canonical page:** `https://unique.domains/domains/tld/fyi`
 **Best for:** founders, investors, studios
 
 ---
@@ -43,13 +43,13 @@ This repository is the public extract for Unique Domains' .FYI one-word domain c
 
 ### Files
 
-- `fyi.csv` — public CSV extract (1,000 rows)
-- `fyi.json` — public JSON extract (1,000 rows)
-- `DATA_DICTIONARY.md` — field definitions for the exported files
-- `METHODOLOGY.md` — scope, refresh policy, and caveats
-- `CHANGELOG.md` — latest snapshot metadata
-- `CITATION.cff` — machine-readable dataset citation metadata
-- `LICENSE` — terms for the public extract
+- `fyi.csv`, public CSV extract (1,000 rows)
+- `fyi.json`, public JSON extract (1,000 rows)
+- `DATA_DICTIONARY.md`, field definitions for the exported files
+- `METHODOLOGY.md`, scope, refresh policy, and caveats
+- `CHANGELOG.md`, latest snapshot metadata
+- `CITATION.cff`, machine-readable dataset citation metadata
+- `LICENSE`, terms for the public extract
 
 ## 🧭 Quick start
 
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain          | status    | ask_price | renewal_price | attractiveness | demand | length | registrar        |
-| --------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ---------------- |
-| gohome.fyi      | available | $9.68     | —             | 76             | 14     | 7      | namecheap        |
-| block.fyi       | resell    | —         | —             | 68             | 36     | 5      | Spaceship, Inc.  |
-| backyard.fyi    | premium   | $18.75    | —             | 80             | 27     | 9      | name.com         |
-| berries.fyi     | available | $9.68     | —             | 60             | 13     | 7      | namecheap        |
-| seattle.fyi     | resell    | —         | —             | 70             | 29     | 7      | GoDaddy.com, LLC |
-| Trex.fyi        | premium   | $21       | $21           | 80             | 24     | 5      | namecheap        |
-| niggers.fyi     | available | $9.68     | —             | 37             | 13     | 7      | namecheap        |
-| dentist.fyi     | resell    | —         | —             | 74             | 25     | 7      | GoDaddy.com, LLC |
-| chem.fyi        | premium   | $18.75    | —             | 74             | 24     | 4      | name.com         |
-| bottles.fyi     | available | $9.68     | —             | 62             | 12     | 7      | namecheap        |
-| bra.fyi         | resell    | —         | —             | 62             | 20     | 3      | GoDaddy.com, LLC |
-| whats.fyi       | premium   | $17.70    | $17.70        | 58             | 24     | 5      | namesilo         |
-| MickeyMouse.fyi | available | $9.68     | —             | 86             | 11     | 12     | namecheap        |
-| advisors.fyi    | resell    | —         | —             | 52             | 16     | 8      | GoDaddy.com, LLC |
-| brothers.fyi    | premium   | $18.75    | —             | 60             | 22     | 8      | name.com         |
-| plated.fyi      | available | $9.68     | —             | 66             | 11     | 6      | namecheap        |
-| democrat.fyi    | resell    | —         | —             | 80             | 14     | 8      | GoDaddy.com, LLC |
-| results.fyi     | premium   | $82.50    | —             | 59             | 22     | 7      | name.com         |
-| crowns.fyi      | available | $9.68     | —             | 62             | 11     | 6      | namecheap        |
-| pearls.fyi      | resell    | —         | —             | 64             | 12     | 6      | GoDaddy.com, LLC |
+| domain    | status    | ask_price | renewal_price | attractiveness | demand | length | registrar                                    |
+| --------- | --------- | --------- | ------------- | -------------- | ------ | ------ | -------------------------------------------- |
+| grew.fyi  | available | $9.68     | —             | high           | low    | 4      | namecheap                                    |
+| cot.fyi   | resell    | —         | —             | high           | low    | 3      | GoDaddy.com, LLC                             |
+| ane.fyi   | premium   | $17.70    | $17.70        | low            | low    | 3      | namesilo                                     |
+| sued.fyi  | available | $9.68     | —             | low            | low    | 4      | namecheap                                    |
+| day.fyi   | resell    | —         | —             | high           | low    | 3      | Dynadot Inc                                  |
+| bid.fyi   | premium   | $78.54    | $78.54        | high           | low    | 3      | namesilo                                     |
+| worn.fyi  | available | $9.68     | —             | medium         | low    | 4      | namecheap                                    |
+| hot.fyi   | resell    | —         | —             | high           | low    | 3      | Spaceship, Inc.                              |
+| BJP.fyi   | premium   | $18.75    | —             | medium         | low    | 3      | name.com                                     |
+| abaft.fyi | available | $9.68     | —             | medium         | low    | 5      | namecheap                                    |
+| pub.fyi   | resell    | —         | —             | high           | low    | 3      | Dynadot Inc                                  |
+| DJI.fyi   | premium   | $17.70    | $17.70        | high           | low    | 3      | namesilo                                     |
+| acids.fyi | available | $9.68     | —             | medium         | low    | 5      | namecheap                                    |
+| red.fyi   | resell    | —         | —             | high           | medium | 3      | Dynadot Inc                                  |
+| feb.fyi   | premium   | $17.70    | $17.70        | high           | low    | 3      | namesilo                                     |
+| banal.fyi | available | $9.68     | —             | medium         | low    | 5      | namecheap                                    |
+| geek.fyi  | resell    | —         | —             | high           | low    | 4      | Xiamen ChinaSource Internet Service Co., Ltd |
+| hic.fyi   | premium   | $17.70    | $17.70        | high           | low    | 3      | namesilo                                     |
+| bared.fyi | available | $9.68     | —             | medium         | low    | 5      | namecheap                                    |
+| hair.fyi  | resell    | —         | —             | high           | low    | 4      | GoDaddy.com, LLC                             |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -105,27 +105,27 @@ If this sample already feels useful, Unique Domains is where the exact search be
 
 ## 🧱 Field summary
 
-- `domain` — Fully qualified domain name.
-- `status` — Current acquisition state for the domain in the public extract.
-- `purchase_price` — Visible purchase price when available.
-- `renewal_price` — Visible renewal price when available.
-- `attractiveness` — Composite naming score used as a decision-support signal.
-- `demand` — Relative buyer-pressure score when available.
-- `length` — Character count without the TLD.
-- `registrar` — Registrar name when known.
-- `created_at` — Creation timestamp when known.
-- `expires_at` — Expiry timestamp when known.
+- `domain`, Fully qualified domain name.
+- `status`, Current acquisition state for the domain in the public extract.
+- `purchase_price`, Visible purchase price when available.
+- `renewal_price`, Visible renewal price when available.
+- `attractiveness`, Public composite naming band used as a decision-support signal.
+- `demand`, Public buyer-pressure band when available.
+- `length`, Character count without the TLD.
+- `registrar`, Registrar name when known.
+- `created_at`, Creation timestamp when known.
+- `expires_at`, Expiry timestamp when known.
 
 See [DATA_DICTIONARY.md](./DATA_DICTIONARY.md) for full definitions and types.
 
 ## ⚠️ Methodology and caveats
 
-This selection is entirely one-word .fyi domains. The extension signals information, updates, or reference-oriented use, so fit depends heavily on whether the word reads clearly with .fyi. Concrete terms like seafood.fyi or slope.fyi can feel direct and usable, while sharper or more abstract words like damn.fyi or derelict.fyi carry more tone risk. With a median ask of 12.14, the main decision is less about entry price and more about choosing a word that stays memorable, defensible, and appropriate for the audience you want to reach. For investors, resale depends on how naturally the word pairs with .fyi. For founders, the question is whether the name feels ownable and easy to explain.
+This selection covers 10,570 .fyi domain names, many built as short, sayable phrases rather than generic keywords — names like getmarried.fyi, dogsit.fyi, and makehappen.fyi. The .fyi extension carries a low median ask near $13 across this list, positioning it as an accessible option for testing a brandable name or comparing entry-level pricing across a large pool of similar phrase-style domains.
 
-- Prioritize words that read naturally with .fyi
-- Check tone risk: blunt, niche, or negative words can narrow fit
-- Use price plus renewal fit to compare similar words
-- Favor memorable dictionary words over awkward phrasing
+- 10,570 .fyi domains, from short phrases to single-word style names
+- Median ask near $13 across the entire selection
+- Names like getmarried.fyi and slicedbread.fyi show phrase-style branding
+- Low-cost entry point ideal for testing brandable .fyi names before renewal
 
 See [METHODOLOGY.md](./METHODOLOGY.md) for the full methodology reference.
 
@@ -142,7 +142,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .FYI One-Word Domains*. Version 2026-05-27. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .FYI One-Word Domains*. Version 2026-07-07. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
