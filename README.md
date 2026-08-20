@@ -16,7 +16,7 @@ Daily-updated public extract of available and resale .fyi one-word domains from 
 
 **Public extract:** 1,000 rows · **Live catalog:** 15,207 domains · **Median ask:** $10.97 · **High-demand under $2,500:** 0
 
-**Last updated:** 2026-08-19
+**Last updated:** 2026-08-20
 **Canonical page:** `https://unique.domains/domains/tld/fyi`
 **Best for:** founders, investors, studios
 
@@ -64,7 +64,6 @@ print(df.head())
 
 | domain   | status    | ask_price | renewal_price | attractiveness | demand | length | registrar                                    |
 | -------- | --------- | --------- | ------------- | -------------- | ------ | ------ | -------------------------------------------- |
-| own.fyi  | available | —         | —             | high           | low    | 3      | —                                            |
 | achy.fyi | available | $6.98     | $9.68         | low            | low    | 4      | namecheap                                    |
 | cot.fyi  | resell    | —         | —             | high           | low    | 3      | GoDaddy.com, LLC                             |
 | ane.fyi  | premium   | $17.70    | $17.70        | low            | low    | 3      | namesilo                                     |
@@ -84,6 +83,7 @@ print(df.head())
 | geek.fyi | resell    | —         | —             | high           | low    | 4      | Xiamen ChinaSource Internet Service Co., Ltd |
 | hic.fyi  | premium   | $17.70    | $17.70        | high           | low    | 3      | namesilo                                     |
 | lvii.fyi | available | $6.98     | $9.68         | low            | low    | 4      | namecheap                                    |
+| hair.fyi | resell    | —         | —             | high           | low    | 4      | GoDaddy.com, LLC                             |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -142,7 +142,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .FYI One-Word Domains*. Version 2026-08-19. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .FYI One-Word Domains*. Version 2026-08-20. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
