@@ -16,7 +16,7 @@ Daily-updated public extract of available and resale .fyi one-word domains from 
 
 **Public extract:** 1,000 rows · **Live catalog:** 28,163 domains · **Median ask:** $11.49 · **High-demand under $2,500:** 0
 
-**Last updated:** 2026-09-23
+**Last updated:** 2026-09-24
 **Canonical page:** `https://unique.domains/domains/tld/fyi`
 **Best for:** founders, investors, studios
 
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain      | status    | ask_price | renewal_price | attractiveness | demand | length | registrar                                    |
-| ----------- | --------- | --------- | ------------- | -------------- | ------ | ------ | -------------------------------------------- |
-| most.fyi    | premium   | $18.75    | —             | high           | low    | 4      | name.com                                     |
-| outback.fyi | premium   | $17.70    | $17.70        | high           | low    | 7      | namesilo                                     |
-| achy.fyi    | available | $6.98     | $9.68         | low            | low    | 4      | namecheap                                    |
-| cot.fyi     | resell    | —         | —             | high           | low    | 3      | GoDaddy.com, LLC                             |
-| ane.fyi     | premium   | $17.70    | $17.70        | low            | low    | 3      | namesilo                                     |
-| arse.fyi    | available | $6.98     | $9.68         | low            | low    | 4      | namecheap                                    |
-| day.fyi     | resell    | —         | —             | high           | low    | 3      | Dynadot Inc                                  |
-| bid.fyi     | premium   | $78.54    | $78.54        | high           | low    | 3      | namesilo                                     |
-| clxv.fyi    | available | $6.98     | $9.68         | low            | low    | 4      | namecheap                                    |
-| hot.fyi     | resell    | —         | —             | medium         | low    | 3      | Spaceship, Inc.                              |
-| bjp.fyi     | premium   | $18.75    | —             | medium         | low    | 3      | name.com                                     |
-| cxxx.fyi    | available | $6.98     | $9.68         | low            | low    | 4      | namecheap                                    |
-| pub.fyi     | resell    | —         | —             | high           | low    | 3      | Dynadot Inc                                  |
-| dji.fyi     | premium   | $17.70    | $17.70        | high           | low    | 3      | namesilo                                     |
-| grew.fyi    | available | $9.68     | —             | high           | low    | 4      | namecheap                                    |
-| red.fyi     | resell    | —         | —             | medium         | low    | 3      | Dynadot Inc                                  |
-| feb.fyi     | premium   | $17.70    | $17.70        | high           | low    | 3      | namesilo                                     |
-| ilxx.fyi    | available | $6.98     | $9.68         | low            | low    | 4      | namecheap                                    |
-| geek.fyi    | resell    | —         | —             | high           | low    | 4      | Xiamen ChinaSource Internet Service Co., Ltd |
-| hic.fyi     | premium   | $17.70    | $17.70        | high           | low    | 3      | namesilo                                     |
+| domain   | status    | ask_price | renewal_price | attractiveness | demand | length | registrar                                    |
+| -------- | --------- | --------- | ------------- | -------------- | ------ | ------ | -------------------------------------------- |
+| achy.fyi | available | $6.98     | $9.68         | low            | low    | 4      | namecheap                                    |
+| cot.fyi  | resell    | —         | —             | high           | low    | 3      | GoDaddy.com, LLC                             |
+| ane.fyi  | premium   | $17.70    | $17.70        | low            | low    | 3      | namesilo                                     |
+| arse.fyi | available | $6.98     | $9.68         | low            | low    | 4      | namecheap                                    |
+| day.fyi  | resell    | —         | —             | high           | low    | 3      | Dynadot Inc                                  |
+| bid.fyi  | premium   | $78.54    | $78.54        | high           | low    | 3      | namesilo                                     |
+| clxv.fyi | available | $6.98     | $9.68         | low            | low    | 4      | namecheap                                    |
+| hot.fyi  | resell    | —         | —             | medium         | low    | 3      | Spaceship, Inc.                              |
+| bjp.fyi  | premium   | $18.75    | —             | medium         | low    | 3      | name.com                                     |
+| cxxx.fyi | available | $6.98     | $9.68         | low            | low    | 4      | namecheap                                    |
+| pub.fyi  | resell    | —         | —             | high           | low    | 3      | Dynadot Inc                                  |
+| dji.fyi  | premium   | $17.70    | $17.70        | high           | low    | 3      | namesilo                                     |
+| grew.fyi | available | $9.68     | —             | high           | low    | 4      | namecheap                                    |
+| red.fyi  | resell    | —         | —             | medium         | low    | 3      | Dynadot Inc                                  |
+| feb.fyi  | premium   | $17.70    | $17.70        | high           | low    | 3      | namesilo                                     |
+| ilxx.fyi | available | $6.98     | $9.68         | low            | low    | 4      | namecheap                                    |
+| geek.fyi | resell    | —         | —             | high           | low    | 4      | Xiamen ChinaSource Internet Service Co., Ltd |
+| hic.fyi  | premium   | $17.70    | $17.70        | high           | low    | 3      | namesilo                                     |
+| lvii.fyi | available | $6.98     | $9.68         | low            | low    | 4      | namecheap                                    |
+| hair.fyi | resell    | —         | —             | high           | low    | 4      | GoDaddy.com, LLC                             |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -144,7 +144,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .FYI One-Word Domains*. Version 2026-09-23. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .FYI One-Word Domains*. Version 2026-09-24. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
